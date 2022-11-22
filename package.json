@@ -1,24 +1,24 @@
-{"name": "mernfuntimes",
+{
+  "name": "mern-challenge-book-search-engine",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Table of Contents - [Description](#description) - [User Story](#user-story) - [Acceptance Criteria](#acceptance-criteria) - [Installation](#installation) - [Usage](#usage) - [Contributors](#contributors) - [Mock up](#mock-up) - [Questions](#questions)",
   "main": "server/server.js",
-  "engines": {
-    "node": "6.11.1"
-  }
   "scripts": {
     "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "seed": "cd server && npm run seed"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collins418/MERN-Challenge-Book-Search-Engine.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^5.1.0"
+  "bugs": {
+    "url": "https://github.com/Collins418/MERN-Challenge-Book-Search-Engine/issues"
   },
-  "dependencies": {
-    "apollo-client": "^2.6.10",
-    "graphql": "^15.5.2"
-  }
+  "homepage": "https://github.com/Collins418/MERN-Challenge-Book-Search-Engine#readme"
 }
