@@ -187,7 +187,7 @@ You can reach me at msdavistoday@gmail.com with additional questions.
 
 Below is the link to my demo video on my Github:
 
-Deploy- 
+Deploy-  https://collins418.github.io/MERN-Challenge-Book-Search-Engine/
 
 Heroku-
 
