@@ -5,11 +5,9 @@
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build",
-    "seed": "cd server && npm run seed"
+    "build": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +15,9 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
   "bugs": {
     "url": "https://github.com/Collins418/MERN-Challenge-Book-Search-Engine/issues"
   },
