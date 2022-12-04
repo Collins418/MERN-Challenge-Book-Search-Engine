@@ -1,62 +1,79 @@
-//https://www.apollographql.com/docs/react/get-started/
-
 import { gql } from "@apollo/client";
 
-export const LOGIN = gql`
+export const LOGIN_USER = gql`
   mutation login($email: String!, $password: String!) {
     login(email: $email, password: $password) {
       token
       user {
-        _id
+        id
         username
+        email
+        bookCount
+        savedBooks {
+          bookId
+          authors
+          description
+          title
+          image
+          link
+        }
       }
     }
   }
 `;
-//https://blog.logrocket.com/crud-react-graphql-examples///
 export const ADD_USER = gql`
   mutation addUser($username: String!, $email: String!, $password: String!) {
     addUser(username: $username, email: $email, password: $password) {
       token
       user {
-        _id
+        id
         username
+        email
+        bookCount
+        savedBooks {
+          bookId
+          authors
+          description
+          title
+          image
+          link
+        }
       }
     }
   }
 `;
-
 export const SAVE_BOOK = gql`
-  mutation saveBook($bookData: bookInput!) {
-    saveBook(bookData: $bookData) {
-      _id
+  mutation saveBook($input: BookInput) {
+    saveBook(input: $input) {
+      id
       username
       email
-      savedBoks {
-        authors
+      bookCount
+      savedBooks {
         bookId
+        authors
         description
         title
-        link
         image
+        link
       }
     }
   }
 `;
-
 export const REMOVE_BOOK = gql`
   mutation removeBook($bookId: ID!) {
     removeBook(bookId: $bookId) {
-      _id
+      id
       username
       email
-      savedBoks {
-        authors
+      bookCount
+      savedBooks {
         bookId
+        authors
         description
         title
-        link
         image
+        link
       }
     }
   }
