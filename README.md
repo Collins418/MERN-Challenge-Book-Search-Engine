@@ -1,3 +1,4 @@
+
 # Book Search Engine Starter Code
 
 ## Table of Contents
@@ -92,14 +93,14 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ## Contributors
 To contribute to MERN book search, clone this repo locally and commit your code on a separate branch.
 ## Mock Up
-
+<img width="937" alt="Screenshot_20221204_024753" src="https://user-images.githubusercontent.com/106499144/205818207-c35c8eb9-c729-4bc6-88a0-88147666bc75.png">
+<img width="946" alt="Screenshot_20221204_024829" src="https://user-images.githubusercontent.com/106499144/205818214-6a62f2b8-a370-487d-9495-7e10912746af.png">
+<img width="931" alt="Screenshot_20221205_104620" src="https://user-images.githubusercontent.com/106499144/205818220-6c2943e9-1eca-4600-a6e8-32add362f64a.png">
 
 ## Questions
 My Github username is collins418, which can be accessed here :https://github.com/Collins418/MERN-Challenge-Book-Search-Engine
 
-You can reach me at msdavistoday@gmail.com with additional questions.
-
-Below is the link to my demo video on my Github:
+You can reach me at ....@gmail.com with additional questions.
 
 Deploy-  https://collins418.github.io/MERN-Challenge-Book-Search-Engine/
 
